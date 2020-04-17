@@ -2,8 +2,10 @@ package cn.seecoder;
 
 import java.util.ArrayList;
   //识别出三个抽象
+  
 //将后面的抽象按照顺序带入到前面的抽象中
 public class Parser {
+	int n；
 	Lexer lexer;
 	ArrayList<String> ctx;
 
